@@ -467,6 +467,7 @@ input{
     .item-has-dropdown{
       width: calc(100% - 40px);
       display: inline-flex;
+      float: left;
     }
 
     .item-dropdown-button {
