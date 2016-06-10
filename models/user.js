@@ -5,7 +5,7 @@ var UserSchema = new Schema({
   username: {type: String, required: true, unique: true, sparse: true},
   first_name: {type: String, required: false},
   last_name: {type: String, required: false},
-  nginId: {type: String, required: false, unique: true},
+  nginId: {type: String, required: false, unique: true, sparse: true},
   guest: {type: Boolean, required: true, unique: false}
 });
 
